@@ -1,0 +1,74 @@
+*{
+font-family: 'PT Sans', sans-serif;
+color: #0B1942;
+}
+
+.logo {
+	/*position: relative;
+	top: 0px;
+	left: 0px;*/
+	height: 6vw;
+  background-color: #F5005B;
+  padding: .4vw;
+  margin: 0;
+}
+
+.navigation {
+	display: inline-flex;
+	justify-content: flex-start;
+	/*position: relative;
+	top: 0px;
+	left: 0px;
+	height: 110px;*/
+  width: 100%;
+	background: #7DDFE8;
+	align-items: center;
+	font-size: 1.5vw;
+
+}
+
+  .navHome {
+    background-color: #00A5BF;
+    color: #FFFFFF;
+    padding: 2.45vw 2vw;
+    text-decoration: none;
+
+}
+
+
+.navCal {
+	background-color: #00B7D3;
+  color: #FFFFFF;
+  padding: 2.45vw 1.2vw;
+  position: relative;
+  left: -.6vw;
+  text-decoration: none;
+}
+
+.navJoin {
+	background-color: #00D5E7;
+  color: #FFFFFF;
+  padding: 2.45vw 2.9vw;
+  position:relative;
+  left: -1.2vw;
+  text-decoration: none;
+}
+
+header {
+  padding: 1.2vw;
+}
+
+.headerSection {
+  display: flex;
+}
+
+.headerDiv {
+  flex: 1;
+  padding: 1vw;
+}
+
+h2 {
+  background: #0B1942;
+  color: #FFFFFF;
+	padding: .3vw 1vw;
+}

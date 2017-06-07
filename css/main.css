@@ -1,0 +1,154 @@
+* {
+	font-family: 'PT Sans', sans-serif;
+	color: #0B1942;
+}
+
+.logo {
+	/*position: relative;
+top: 0px;
+left: -10px;*/
+	height: 6vw;
+	background-color: #F5005B;
+	padding: .4vw;
+	margin: 0;
+}
+
+.navigation {
+	display: inline-flex;
+	justify-content: flex-start;
+	/*position: relative;
+top: 0px;
+left: 0px;*/
+	height: 7vw;
+	width: 100%;
+	background: #7DDFE8;
+	align-items: center;
+	font-size: 1.5vw;
+}
+
+.navHome {
+	background-color: #00A5BF;
+	color: #FFFFFF;
+	padding: 2.45vw 2vw;
+	text-decoration: none;
+}
+
+.navCal {
+	background-color: #00B7D3;
+	color: #FFFFFF;
+	padding: 2.45vw 1.2vw;
+	position: relative;
+	left: -.6vw;
+	text-decoration: none;
+}
+
+.navJoin {
+	background-color: #00D5E7;
+	color: #FFFFFF;
+	padding: 2.45vw 2.9vw;
+	position: relative;
+	left: -1.2vw;
+	text-decoration: none;
+}
+
+header {
+	background-color: #FFFFFF;
+	padding: 1.2vw;
+}
+
+.headerSection {
+	display: flex;
+}
+
+.headerDiv {
+	flex: 1;
+	padding: .5vw;
+}
+
+h1 {
+	padding-left: .8vw;
+}
+
+h2 {
+	background: #0B1942;
+	color: #FFFFFF;
+	padding: .3vw 1vw;
+}
+
+main {
+	background-color: #0B1942;
+	padding: 1vw;
+}
+
+.FGSection2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.FGSection {
+	display: flex;
+	padding: 0 1vw;
+}
+
+.rashomonDiv {
+	flex: 1;
+	background-color: #E2E2E2;
+	padding: 1vw;
+	align-content: flex-start;
+}
+
+	.rashomonDiv p, ul li, h4 {
+		color: #000000;
+	}
+
+.rashomoncardImg {
+	padding: 1vw;
+	background-color: #E2E2E2;
+}
+
+.FGDiv {
+	flex: 1;
+	background-color: #E2E2E2;
+	padding: 1vw 1vw 0 1vw;
+	align-content: flex-start;
+	line-height: 0.3vw;
+}
+
+	.FGDiv p, ul li, h4 {
+		color: #000000;
+	}
+
+	.FGDiv p {
+		padding-left: 1vw;
+	}
+
+.cardImg {
+	padding: 1vw;
+	background-color: #E2E2E2;
+	padding: 1vw 1vw 0 1vw;
+}
+
+.blueLink {
+	color: #00B7D3;
+}
+
+.rashomonLink {
+	color: #00B7D3;
+	font-size: 2.5vw;
+}
+
+li {
+	position: relative;
+	left: -1.5vw;
+}
+
+hr {
+	background: #000000;
+	height: .1vw;
+}
+
+span {
+	color: #FFFFFF;
+	position: relative;
+	right: -60vw;
+}
